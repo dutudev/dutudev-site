@@ -110,3 +110,24 @@ p{
 .latestProjLinks a:visited{
     color: gray;
 }
+
+.banner{
+    width: 100%;
+    height: 2.5em;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+.bannerText{
+    display: inline-block;
+    animation: scrollBanner linear 2s infinite;
+    overflow: hidden;
+    color: gray;
+    font-style: italic;
+}
+
+@keyframes scrollBanner{
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-5%);}
+}

@@ -5,4 +5,5 @@ $latestProject = [
     "itchLink" => "https://dutudev.itch.io/the-entrepreneur",
     "archiveLink" => "#"
 ];
+$bannerMessage = "new website";
 ?>
