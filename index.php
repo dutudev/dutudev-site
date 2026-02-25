@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <?php include 'staticData/indexData.php'; ?>
     <div class="contents">
         <div class="navbar">
             <div class="homelink">
@@ -27,12 +28,12 @@
                 <h1>Latest Project</h1>
 
             </div>
-            <img class="latestProjImg" src="images/LastestProject.png" alt="">
+            <img class="latestProjImg" src=<?php echo $latestProject["image"];?> alt="">
             <div class="latestProjDetails">
-                <h1>The Entreprenuer</h1>
+                <h1><?php echo $latestProject["title"];?></h1>
                 <div class="latestProjLinks">
-                    <a href="https://dutudev.itch.io/the-entrepreneur">itch.io</a>
-                    <a href="add archive here">archive</a>
+                    <a href=<?php echo $latestProject["itchLink"];?> target="_blank" rel="noopener noreferrer">itch.io</a>
+                    <a href=<?php echo $latestProject["archiveLink"];?> target="_blank" rel="noopener noreferrer">archive</a>
                 </div>
             </div>
         </div> 
