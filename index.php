@@ -50,6 +50,36 @@
                     <a href=<?php echo $latestProject["archiveLink"];?> target="_blank" rel="noopener noreferrer">archive</a>
                 </div>
             </div>
+            <div class="separator"></div>
+            <div class="sectiontitle">
+                <h1>Recent Games</h1>
+            </div>
+            <div class="games">
+
+                <?php
+                    $jsonFile = "./GamesData/data.json";
+                    $jsonContents = json_decode(file_get_contents($jsonFile), true);
+                    $filteredGames = [];
+                    $tagToSearch = "mainGame";
+                    foreach ($jsonContents as $game) {
+                        if($game["tag"] == $tagToSearch){
+                            $filteredGames[] = $game;
+                        }
+                    }
+
+                    foreach(array_slice($filteredGames, $latestProject["topGames"], $latestProject["topGames"] + 3) as $post){
+                        echo '<div class="game">
+                                <img src="images/' . str_replace(' ', '', $post["title"]) . '.png" alt="">
+                                <p>' . $post["title"] . '</p>
+                                <a href="game.php">View</a>
+                                </div>';
+                    }
+                ?>
+            </div>
+            <div class="separator"></div>
+            <div class="sectiontitle">
+                <h1>Recent Logs</h1>
+            </div>
         </div> 
     </div>
 </body>
