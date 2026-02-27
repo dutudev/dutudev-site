@@ -162,8 +162,37 @@ p{
 }
 
 @media screen and (max-width: 780px) {
-  .game img{
-    width: 10em;
-    border-radius: 6px;
+    .game img{
+        width: 10em;
+        border-radius: 6px;
+    }
+
+    .navbar{
+        width: 90%;
+    }
 }
+
+.gameEntry{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 0.8em 0.5em;
+    background-color: #131313;
+}
+
+.gray{
+    background-color: #202020;
+}
+
+.gameEntry p{
+    padding: 0;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.markdownText{
+    align-items: left;
+    width: 90%;
 }
