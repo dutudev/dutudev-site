@@ -36,7 +36,7 @@
     <div class="contents">
         <div class="navbar">
             <div class="homelink">
-                <a href="index.php">dutu.dev</a>
+                <a href="/">dutu.dev</a>
             </div>
             <?php include 'staticData/navbar.php';?>
         </div>
