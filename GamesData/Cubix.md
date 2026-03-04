@@ -24,6 +24,6 @@ Github : [https://github.com/dutudev/Unihack6](https://github.com/dutudev/Unihac
 
 <br><br>
 
-[Download From Archive](https://dutu.dev/archive/CubiX.zip)<br><br>
+[Download From Archive](/archive/CubiX.zip)<br><br>
 
 [Download From Itch.io](https://dutudev.itch.io/cubix)<br><br>

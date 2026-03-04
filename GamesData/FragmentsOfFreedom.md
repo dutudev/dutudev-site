@@ -12,6 +12,6 @@ In this game, you are trapped in your own mind. You suffer from schizophrenia, a
 
 <br><br>
 
-[Download From Archive](https://dutu.dev/archive/FragmentsOfFreedom.zip)<br><br>
+[Download From Archive](/archive/FragmentsOfFreedom.zip)<br><br>
 
 [Download From Itch.io](https://dutudev.itch.io/fragments-of-freedom)

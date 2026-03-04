@@ -14,7 +14,7 @@ this game is intended for mobile, so the pc version might be unstable
 
 <br><br>
 
-[Download From Archive](https://dutu.dev/archive/IntenseDefense.zip)<br><br>
+[Download From Archive](/archive/IntenseDefense.zip)<br><br>
 
 [Download From Itch.io](https://dutudev.itch.io/intensedefence)<br><br>
 

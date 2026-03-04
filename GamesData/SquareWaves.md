@@ -11,5 +11,5 @@ tag: mainGame
 Make your way through waves of enemies while upgrading yourself and your weapons.
 
 <br><br>
-[Download From Archive](https://dutu.dev/archive/SquareWaves.zip)<br><br>
+[Download From Archive](/archive/SquareWaves.zip)<br><br>
 [Download From Itch.io](https://dutudev.itch.io/squarewaves)

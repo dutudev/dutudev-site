@@ -25,5 +25,5 @@ Game made in collaboration with Sofia Pacurari & Denisa Halmagean at Unihack 7 (
 <img src="/images/goofyahhlaurelwhite.png" style="width:60%">
 
 <br><br>
-[Download From Archive](https://dutu.dev/archive/WeHaveLautarAtHome.zip)<br><br>
+[Download From Archive](/archive/WeHaveLautarAtHome.zip)<br><br>
 [Download From Itch.io](https://dutudev.itch.io/we-have-lautar-at-home)

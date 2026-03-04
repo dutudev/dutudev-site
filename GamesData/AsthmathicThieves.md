@@ -29,5 +29,5 @@ Made for GGj 2026 by dutudev & ale :)
 *note : to register items, you need to drop them in front of the house, do not take items with you when you leave 😭.
 
 <br><br>
-[Download From Archive](https://dutu.dev/archive/AsthmathicThieves.zip)<br><br>
+[Download From Archive](/archive/AsthmathicThieves.zip)<br><br>
 [Download From Itch.io](https://dutudev.itch.io/asthmathic-thieves)
