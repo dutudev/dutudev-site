@@ -31,10 +31,17 @@
                     if($i%2!=0){
                         $gray =" gray";
                     }
-                    echo "<div class='gameEntry" . $gray . "'>
+                    if($i == 0){
+                        echo "<div class='gameEntry" . $gray . "'>
+                            <p>" . $Logs[$i]['title'] . " <b style='color:#a3a3a3'>[NEW]</b></p>
+                            <a href='Log.php?log=" . str_replace(' ', '', $Logs[$i]['title']) . "'>View</a>
+                            </div>";
+                    }else{
+                        echo "<div class='gameEntry" . $gray . "'>
                             <p>" . $Logs[$i]['title'] . "</p>
                             <a href='Log.php?log=" . str_replace(' ', '', $Logs[$i]['title']) . "'>View</a>
                             </div>";
+                    }
                 }
 
             ?>

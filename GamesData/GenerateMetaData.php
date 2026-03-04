@@ -38,7 +38,7 @@ $files = scandir("../LogsData");
 $games = [];
 
 foreach($files as $file){
-    echo $file . "<br>";
+   
     if(is_file("../LogsData/" . $file) && pathinfo($file, PATHINFO_EXTENSION) == 'md'){
         $contents = file_get_contents("../LogsData/" . $file);
         $metadata = explode("?~~?", $contents)[0];

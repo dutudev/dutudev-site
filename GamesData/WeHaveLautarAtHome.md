@@ -22,7 +22,7 @@ Step into the shoes of a well known lautar who was met with a terrible fate, his
 
 Game made in collaboration with Sofia Pacurari & Denisa Halmagean at Unihack 7 (2025)
 
-![](images/goofyahhlaurelsmall.png)
+<img src="/images/goofyahhlaurelwhite.png" style="width:60%">
 
 <br><br>
 [Download From Archive](https://dutu.dev/archive/WeHaveLautarAtHome.zip)<br><br>

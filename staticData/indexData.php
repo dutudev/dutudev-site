@@ -3,7 +3,7 @@ $latestProject = [
     "title" => "The Entrepreneur",
     "image" => "images/TheEntrepreneur.png",
     "itchLink" => "https://dutudev.itch.io/the-entrepreneur",
-    "archiveLink" => "https://dutu.dev/game.php?game=TheEntrepeneur",
+    "archiveLink" => "/game.php?game=TheEntrepreneur",
     "topGames" => "1"
 ];
 $bannerMessage = "new website";

@@ -45,7 +45,7 @@
                             <a href='Game.php?game=" . str_replace(' ', '', $Games[$i]['title']) . "'>View</a>
                             </div>";
                 }
-
+                echo '<p>! Currently Incomplete Catalog, Check dutudev.itch.io For All Games !</p>';
                 echo ' <div class="separator" style="margin-top:2em"></div>
                         <div class="sectiontitle">
                         <h1>Game Jams & Hackathons</h1>

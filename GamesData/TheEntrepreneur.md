@@ -44,5 +44,5 @@ Nice switch by xkeril -- [https://freesound.org/s/612570/](https://freesound.org
 ***Just a heads-up: the game might not be that fun :( , didn't really focus on game design with this project, and most of the prices and values were made up. Hope you still enjoy it!***
 
 <br><br>
-[Download From Archive](https://dutu.dev/archive/TheEntrepreneur.zip)<br><br>
+[Download From Archive](/archive/TheEntrepreneur.zip)<br><br>
 [Download From Itch.io](https://dutudev.itch.io/the-entrepreneur)

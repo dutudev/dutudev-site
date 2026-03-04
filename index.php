@@ -42,8 +42,8 @@
             <div class="latestProjDetails">
                 <h1><?php echo $latestProject["title"];?></h1>
                 <div class="latestProjLinks">
-                    <a href=<?php echo $latestProject["itchLink"];?> target="_blank" rel="noopener noreferrer">itch.io</a>
-                    <a href=<?php echo $latestProject["archiveLink"];?> target="_blank" rel="noopener noreferrer">archive</a>
+                    <a href=<?php echo $latestProject["itchLink"];?> >itch.io</a>
+                    <a href=<?php echo $latestProject["archiveLink"];?> >archive</a>
                 </div>
             </div>
             <div class="separator"></div>
@@ -67,7 +67,7 @@
                         echo '<div class="game">
                                 <img src="images/' . str_replace(' ', '', $post["title"]) . '.png" alt="">
                                 <p>' . $post["title"] . '</p>
-                                <a href="game.php">View</a>
+                                <a href="game.php?game=' . str_replace(' ', '', $post["title"]) . '">View</a>
                                 </div>';
                     }
                     

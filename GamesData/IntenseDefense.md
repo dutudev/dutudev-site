@@ -6,7 +6,7 @@ tag: mainGame
 ?~~?
 
 
-# IntenseDefense
+# Intense Defense
 
 A goofy ahh game i made in one week, about a square getting attacked by circles  
 
