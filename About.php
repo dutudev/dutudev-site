@@ -23,7 +23,8 @@
                 <h1>About</h1>
             </div>
             <p>Hello, i am dutudev</p>
-            <p>I like to make games and different videos on the internet</p>
+            <p>I like to make games and different videos on the internet. Pretty empty about for now but i'll update it sometime in the future.</p>
+            <p>site made by dutudev</p>
 
     </div>
 </body>
