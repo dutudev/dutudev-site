@@ -67,7 +67,7 @@
                         echo '<div class="game">
                                 <img src="images/' . str_replace(' ', '', $post["title"]) . '.png" alt="">
                                 <p>' . $post["title"] . '</p>
-                                <a href="game.php?game=' . str_replace(' ', '', $post["title"]) . '">View</a>
+                                <a href="Game.php?game=' . str_replace(' ', '', $post["title"]) . '">View</a>
                                 </div>';
                     }
                     
