@@ -6,7 +6,7 @@ $latestProject = [
     "archiveLink" => "/Game.php?game=TheEntrepreneur",
     "topGames" => "1"
 ];
-$bannerMessage = "new website";
+$bannerMessage = "<font style='color:#3f68ab'>join discord server</font>";
 
 
 
