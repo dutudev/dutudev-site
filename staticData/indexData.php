@@ -1,12 +1,12 @@
 <?php
 $latestProject = [
-    "title" => "The Entrepreneur",
-    "image" => "images/TheEntrepreneur.png",
-    "itchLink" => "https://dutudev.itch.io/the-entrepreneur",
-    "archiveLink" => "/Game.php?game=TheEntrepreneur",
+    "title" => "Astrodeck",
+    "image" => "images/Astrodeck.png",
+    "itchLink" => "https://dutudev.itch.io/astrodeck",
+    "archiveLink" => "/Game.php?game=Astrodeck",
     "topGames" => "1"
 ];
-$bannerMessage = "<font style='color:#3f68ab'>join discord server</font>";
+$bannerMessage = "Play Astrodeck";
 
 
 
