@@ -196,3 +196,12 @@ p{
     align-items: left;
     width: 90%;
 }
+
+.entryTitleDate{
+    display: flex;
+    flex-direction: column;
+}
+
+.logDate{
+    font-size: 1.2em !important;
+}

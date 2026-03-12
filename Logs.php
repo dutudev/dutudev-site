@@ -33,12 +33,21 @@
                     }
                     if($i == 0){
                         echo "<div class='gameEntry" . $gray . "'>
-                            <p>" . $Logs[$i]['title'] . " <b style='color:#a3a3a3'>[NEW]</b></p>
+                            <div style='display:flex;flex-direction:row'>
+                            <div class='entryTitleDate'>
+                            <p>" . $Logs[$i]['title'] . "</p>
+                            <p class='logDate'>" . date("d-m-Y", strtotime($Logs[$i]['date'])) . "</p>
+                            </div>
+                            <p><b style='color:#a3a3a3;margin-left:1em'>[NEW]</b></p>
+                            </div>
                             <a href='Log.php?log=" . str_replace(' ', '', $Logs[$i]['title']) . "'>View</a>
                             </div>";
                     }else{
                         echo "<div class='gameEntry" . $gray . "'>
+                            <div class='entryTitleDate'>
                             <p>" . $Logs[$i]['title'] . "</p>
+                            <p class='logDate'>" . date("d-m-Y", strtotime($Logs[$i]['date'])) . "</p>
+                            </div>
                             <a href='Log.php?log=" . str_replace(' ', '', $Logs[$i]['title']) . "'>View</a>
                             </div>";
                     }
