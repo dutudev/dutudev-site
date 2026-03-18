@@ -6,7 +6,7 @@ $latestProject = [
     "archiveLink" => "/Game.php?game=Astrodeck",
     "topGames" => "1"
 ];
-$bannerMessage = "Play Astrodeck";
+$bannerMessage = "Subscribe to RSS feed";
 
 
 
