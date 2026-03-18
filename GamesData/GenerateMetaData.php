@@ -1,5 +1,10 @@
 <?php
 //mainGame jamGame
+
+include '../Parsedown/Parsedown.php';   
+$parsedown = new Parsedown(); 
+date_default_timezone_set('Europe/Bucharest');
+
 function sortMeta($a, $b){
     return $b["date"] <=> $a["date"];
 }
@@ -37,6 +42,21 @@ if (!file_exists($jsonFile) || file_get_contents($jsonFile) !== $jsonFinish) {
 $files = scandir("../LogsData"); 
 $games = [];
 
+$rssText ='<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>dutudev</title>
+        <link>https://dutu.dev/</link>
+        <description>The latest logs from the dutu.dev site. The personal site of dutudev.</description>
+        <language>en-us</language>
+        <category>Logs</category>
+        <generator>RSS Generator made by dutudev</generator>
+        <docs>https://www.rssboard.org/rss-specification</docs>
+        <ttl>60</ttl>
+        <lastBuildDate>' . date(DATE_RSS) . '</lastBuildDate>
+    ';
+
+
 foreach($files as $file){
    
     if(is_file("../LogsData/" . $file) && pathinfo($file, PATHINFO_EXTENSION) == 'md'){
@@ -51,11 +71,28 @@ foreach($files as $file){
                 //echo trim($key) . '  ' . $meta[trim($key)] . '<br>';
                 }
         }
+        $meta["content"] = explode("?~~?", $contents)[1];
         $games[] = $meta;
     }
 }
 
 usort($games, "sortMeta");
+
+
+foreach($games as $item){
+    $date = new DateTime($item["date"], new DateTimeZone("Europe/Bucharest"));
+        
+    $rssItem = '<item>
+        <title>' . $item["title"] . '</title>
+        <link>https://dutu.dev/Log.php?log=' . str_replace(" ", "", $item["title"]) . '</link>
+        <guid isPermaLink="true">https://dutu.dev/Log.php?log=' . str_replace(" ", "", $item["title"]) . '</guid>
+        <description><![CDATA[' . $parsedown->text($item["content"]) . ']]></description>
+        <pubDate>' . $date->format(DATE_RSS) . '</pubDate>
+        <author>dutudev</author>
+        </item>
+        ';
+    $rssText = $rssText . $rssItem;
+}
 
 $jsonFinish = json_encode($games, JSON_PRETTY_PRINT);
 
@@ -67,23 +104,11 @@ if (!file_exists($jsonFile) || file_get_contents($jsonFile) !== $jsonFinish) {
 
 // Generate rss feed
 
-$rssTextStart ='<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-    <channel>
-        <title>dutudev</title>
-        <link>https://dutu.dev/</link>
-        <description>The latest logs from the dutu.dev site. The personal site of dutudev.</description>
-        <language>en-us</language>
-        <category>Logs</category>
-        <generator>RSS Generator made by dutudev</generator>
-        <docs>https://www.rssboard.org/rss-specification</docs>
-        <ttl>60</ttl>
-    ';
-
 $rssFile = "../feed.xml";
+$rssText = $rssText . "</channel></rss>";
 
-if(!file_exists($rssFile) || file_get_contents($rssFile) != $rssTextStart){
-    file_put_contents($rssFile ,$rssTextStart);
+if(!file_exists($rssFile) || file_get_contents($rssFile) != $rssText){
+    file_put_contents($rssFile ,$rssText);
 }
 
 

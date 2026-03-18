@@ -9,5 +9,74 @@
         <generator>RSS Generator made by dutudev</generator>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <ttl>60</ttl>
-    </channel>
-</rss>
+        <lastBuildDate>Wed, 18 Mar 2026 19:48:57 +0200</lastBuildDate>
+    <item>
+        <title>Official RSS Feed</title>
+        <link>https://dutu.dev/Log.php?log=OfficialRSSFeed</link>
+        <guid isPermaLink="true">https://dutu.dev/Log.php?log=OfficialRSSFeed</guid>
+        <description><![CDATA[<div style="text-align: center;">
+    <img src="/images/dutudevRSS.png" style="width:100%">
+</div>
+<h1>RSS Feed</h1>
+<p>I was pretty bored, so i thought of making my own rss feed. I did this because I started to use them. I think they are a pretty interesting way of centralizing a lot of websites and notifications. I use Inoreader (not sponsored), but any aggregator should work just fine.</p>
+<h2>How do you subscribe to the dutu.dev RSS feed?</h2>
+<ol>
+<li>Go into your aggregator of choice</li>
+<li>Add a feed using this link: <a href="https://dutu.dev/feed.xml">https://dutu.dev/feed.xml</a></li>
+</ol>
+<p>This should be a pretty fast way of checking any new logs of mine without checking my website constantly.</p>
+<p>Thanks for reading my logs</p>
+<p>I didn't stop working on games btw :)</p>]]></description>
+        <pubDate>Wed, 18 Mar 2026 20:00:00 +0200</pubDate>
+        <author>dutudev</author>
+        </item>
+        <item>
+        <title>Astrodeck Release</title>
+        <link>https://dutu.dev/Log.php?log=AstrodeckRelease</link>
+        <guid isPermaLink="true">https://dutu.dev/Log.php?log=AstrodeckRelease</guid>
+        <description><![CDATA[<h1>Astrodeck Release</h1>
+<p>Yo, i released a new game, and uhh, i'm probably going to talk all alone in this log (who reads this 😭). I also made a video for this game and how i made it. It was made for a "contest" where the prize was going to Japan to build an arcade cabinet (those old big fridges where people played games). This event took place in August-November and the video took a while to make, cause i was lazy and i made some other games on the side (i'm also making a video about them). In the video i talk about how i made the game, and the fact that even though i did not get to go to Japan, i did win a raspberry pi. I'm thinking of making my own arcade cabinet using it (total copium). If you are interested to know, I also started working on this. So the next things to come will probably be :</p>
+<ul>
+<li>New game with video (hope to release this soon)</li>
+<li>Astrodeck mobile port</li>
+<li>Arcade cabinet build video</li>
+<li>A video about me learning to make games in some other ways</li>
+</ul>
+<p>I find the last point interesting because making games this way (you will see how when i release that video) is really fun, a lot more challenging and i would like to make more games like this.</p>
+<p>To end this log, i think that i will make videos a bit more "live" so i don't have to record my voice separately and maybe there is less to edit, but we'll see.</p>
+<p>If you want to talk to me, don't forget to join my <a href="https://dutu.dev/Log.php?log=OfficialDiscordServer">discord server</a>, and go watch my videos.</p>
+<p>xoxo, dutudev</p>]]></description>
+        <pubDate>Wed, 11 Mar 2026 18:00:00 +0200</pubDate>
+        <author>dutudev</author>
+        </item>
+        <item>
+        <title>Official Discord Server</title>
+        <link>https://dutu.dev/Log.php?log=OfficialDiscordServer</link>
+        <guid isPermaLink="true">https://dutu.dev/Log.php?log=OfficialDiscordServer</guid>
+        <description><![CDATA[<h1>Official Discord Server</h1>
+<p>I made a discord server, so if you want to talk with me you can join :</p>
+<p><a href="https://discord.gg/zK8VMda9yp">https://discord.gg/zK8VMda9yp</a></p>
+<p>This is it for this log, i think i'll post a video soon, you can join the discord server to know more.</p>]]></description>
+        <pubDate>Fri, 06 Mar 2026 18:00:00 +0200</pubDate>
+        <author>dutudev</author>
+        </item>
+        <item>
+        <title>New Website!</title>
+        <link>https://dutu.dev/Log.php?log=NewWebsite!</link>
+        <guid isPermaLink="true">https://dutu.dev/Log.php?log=NewWebsite!</guid>
+        <description><![CDATA[<h1>New Website</h1>
+<p>Welcome to my new website, here i will post different updates and an alternative to downloading my games. </p>
+<p>The layout of the website is pretty much inspired by Mike Klubnika's website.</p>
+<p>I am thinking that maybe i will be releasing games here faster, but i'm not currently sure :sob:.
+My games will still be up on itch so i won't move entirely to this website.
+But i thought that maybe this is a pretty good way to connect to my community (nonexistent for now).</p>
+<p>I am also thinking of what I'll be posting on here.
+I'll probably write about the progress I'm making with my games, as posting a video is a long process
+and posting once or twice a year is not enough.</p>
+<p>Posting a video takes so much not because it's hard to make a game (i enjoy that part a lot and i can work with high efficiency),
+but editing the video takes a lot of time to complete for some reason. Besides that, i am still in school and I don't have all day available
+to work on what i would like.</p>]]></description>
+        <pubDate>Thu, 05 Mar 2026 18:00:00 +0200</pubDate>
+        <author>dutudev</author>
+        </item>
+        </channel></rss>

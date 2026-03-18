@@ -1,14 +1,22 @@
 [
     {
+        "title": "Official RSS Feed",
+        "date": "2026-03-18 20:00",
+        "content": "\r\n\r\n\r\n<div style=\"text-align: center;\">\r\n    <img src=\"\/images\/dutudevRSS.png\" style=\"width:100%\">\r\n<\/div>\r\n\r\n# RSS Feed\r\n\r\nI was pretty bored, so i thought of making my own rss feed. I did this because I started to use them. I think they are a pretty interesting way of centralizing a lot of websites and notifications. I use Inoreader (not sponsored), but any aggregator should work just fine.\r\n\r\n## How do you subscribe to the dutu.dev RSS feed?\r\n\r\n 1. Go into your aggregator of choice\r\n 2. Add a feed using this link: https:\/\/dutu.dev\/feed.xml\r\n\r\nThis should be a pretty fast way of checking any new logs of mine without checking my website constantly.\r\n\r\nThanks for reading my logs\r\n\r\nI didn't stop working on games btw :)\r\n\r\n"
+    },
+    {
         "title": "Astrodeck Release",
-        "date": "2026-03-11 18:00"
+        "date": "2026-03-11 18:00",
+        "content": "\r\n\r\n# Astrodeck Release\r\n\r\nYo, i released a new game, and uhh, i'm probably going to talk all alone in this log (who reads this \ud83d\ude2d). I also made a video for this game and how i made it. It was made for a \"contest\" where the prize was going to Japan to build an arcade cabinet (those old big fridges where people played games). This event took place in August-November and the video took a while to make, cause i was lazy and i made some other games on the side (i'm also making a video about them). In the video i talk about how i made the game, and the fact that even though i did not get to go to Japan, i did win a raspberry pi. I'm thinking of making my own arcade cabinet using it (total copium). If you are interested to know, I also started working on this. So the next things to come will probably be :\r\n\r\n - New game with video (hope to release this soon)\r\n - Astrodeck mobile port\r\n - Arcade cabinet build video\r\n - A video about me learning to make games in some other ways\r\n \r\nI find the last point interesting because making games this way (you will see how when i release that video) is really fun, a lot more challenging and i would like to make more games like this.\r\n\r\nTo end this log, i think that i will make videos a bit more \"live\" so i don't have to record my voice separately and maybe there is less to edit, but we'll see.\r\n\r\nIf you want to talk to me, don't forget to join my [discord server](https:\/\/dutu.dev\/Log.php?log=OfficialDiscordServer), and go watch my videos.\r\n\r\nxoxo, dutudev\r\n\r\n \r\n\r\n"
     },
     {
         "title": "Official Discord Server",
-        "date": "2026-03-06 18:00"
+        "date": "2026-03-06 18:00",
+        "content": "\r\n\r\n# Official Discord Server\r\nI made a discord server, so if you want to talk with me you can join :\r\n\r\n[https:\/\/discord.gg\/zK8VMda9yp](https:\/\/discord.gg\/zK8VMda9yp)\r\n\r\nThis is it for this log, i think i'll post a video soon, you can join the discord server to know more."
     },
     {
         "title": "New Website!",
-        "date": "2026-03-05 18:00"
+        "date": "2026-03-05 18:00",
+        "content": "\r\n\r\n# New Website\r\nWelcome to my new website, here i will post different updates and an alternative to downloading my games. \r\n\r\nThe layout of the website is pretty much inspired by Mike Klubnika's website.\r\n\r\nI am thinking that maybe i will be releasing games here faster, but i'm not currently sure :sob:.\r\nMy games will still be up on itch so i won't move entirely to this website.\r\nBut i thought that maybe this is a pretty good way to connect to my community (nonexistent for now).\r\n\r\nI am also thinking of what I'll be posting on here.\r\nI'll probably write about the progress I'm making with my games, as posting a video is a long process\r\nand posting once or twice a year is not enough.\r\n\r\nPosting a video takes so much not because it's hard to make a game (i enjoy that part a lot and i can work with high efficiency),\r\nbut editing the video takes a lot of time to complete for some reason. Besides that, i am still in school and I don't have all day available\r\nto work on what i would like.\r\n"
     }
 ]
