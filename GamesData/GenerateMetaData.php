@@ -63,4 +63,28 @@ $jsonFile = "../LogsData/dataLogs.json";
 if (!file_exists($jsonFile) || file_get_contents($jsonFile) !== $jsonFinish) {
     file_put_contents($jsonFile, $jsonFinish);
 }
+
+
+// Generate rss feed
+
+$rssTextStart ='<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>dutudev</title>
+        <link>https://dutu.dev/</link>
+        <description>The latest logs from the dutu.dev site. The personal site of dutudev.</description>
+        <language>en-us</language>
+        <category>Logs</category>
+        <generator>RSS Generator made by dutudev</generator>
+        <docs>https://www.rssboard.org/rss-specification</docs>
+        <ttl>60</ttl>
+    ';
+
+$rssFile = "../feed.xml";
+
+if(!file_exists($rssFile) || file_get_contents($rssFile) != $rssTextStart){
+    file_put_contents($rssFile ,$rssTextStart);
+}
+
+
 ?>
