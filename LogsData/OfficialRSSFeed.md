@@ -12,7 +12,7 @@ date: 2026-03-18 20:00
 
 # RSS Feed
 
-I was pretty bored, so i thought of making my own rss feed. I did this because I started to use them. I think they are a pretty interesting way of centralizing a lot of websites and notifications. I use Inoreader (not sponsored), but any aggregator should work just fine.
+I was pretty bored, so i thought of making my own rss feed. I did this because I started to use them. I think they are a pretty interesting way of centralizing a lot of websites and notifications. I use Feeder on my phone (not sponsored), but any aggregator should work just fine.
 
 ## How do you subscribe to the dutu.dev RSS feed?
 
