@@ -21,8 +21,11 @@
         <div class="holder">
             <div class="sectiontitle">
                 <h1>Logs</h1>
+                
             </div>
-
+            <div class="feedSub">
+                <a href="/feed">Subscribe to RSS feed  <img src="/images/rss.svg" width="20"></a>
+            </div>
             <?php
                 $jsonContent = file_get_contents("LogsData/dataLogs.json");
                 $Logs = json_decode($jsonContent, true);

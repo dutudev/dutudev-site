@@ -205,3 +205,11 @@ p{
 .logDate{
     font-size: 1.2em !important;
 }
+
+.feedSub{
+    display: flex;
+    justify-content: left;
+    width: 92%;
+    font-size: 1.2em;
+    padding-bottom: 1.5em;
+}
