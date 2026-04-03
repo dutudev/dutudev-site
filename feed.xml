@@ -9,8 +9,19 @@
         <generator>RSS Generator made by dutudev</generator>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <ttl>60</ttl>
-        <lastBuildDate>Wed, 18 Mar 2026 19:48:57 +0200</lastBuildDate>
+        <lastBuildDate>Fri, 03 Apr 2026 22:01:39 +0300</lastBuildDate>
     <item>
+        <title>Astrodeck On Mobile</title>
+        <link>https://dutu.dev/Log.php?log=AstrodeckOnMobile</link>
+        <guid isPermaLink="true">https://dutu.dev/Log.php?log=AstrodeckOnMobile</guid>
+        <description><![CDATA[<h1>Astrodeck On Mobile</h1>
+<p>Astrodeck is finally out on mobile for android.</p>
+<p>The controls are pretty interesting as I didn't want to have any joysticks on screen. I personally like them, so go and play it!</p>
+<p><a href="https://play.google.com/store/apps/details?id=com.dutudev.astrodeck">Download From Google Play</a></p>]]></description>
+        <pubDate>Fri, 03 Apr 2026 22:00:00 +0300</pubDate>
+        <author>dutudev</author>
+        </item>
+        <item>
         <title>Official RSS Feed</title>
         <link>https://dutu.dev/Log.php?log=OfficialRSSFeed</link>
         <guid isPermaLink="true">https://dutu.dev/Log.php?log=OfficialRSSFeed</guid>

@@ -1,8 +1,13 @@
 [
     {
+        "title": "Astrodeck On Mobile",
+        "date": "2026-04-03 22:00",
+        "content": "\r\n\r\n\r\n# Astrodeck On Mobile\r\n\r\nAstrodeck is finally out on mobile for android.\r\n\r\nThe controls are pretty interesting as I didn't want to have any joysticks on screen. I personally like them, so go and play it!\r\n\r\n[Download From Google Play](https:\/\/play.google.com\/store\/apps\/details?id=com.dutudev.astrodeck)\r\n\r\n"
+    },
+    {
         "title": "Official RSS Feed",
         "date": "2026-03-18 20:00",
-        "content": "\r\n\r\n\r\n<div style=\"text-align: center;\">\r\n    <img src=\"\/images\/dutudevRSS.png\" style=\"width:100%\">\r\n<\/div>\r\n\r\n# RSS Feed\r\n\r\nI was pretty bored, so i thought of making my own rss feed. I did this because I started to use them. I think they are a pretty interesting way of centralizing a lot of websites and notifications. I use Inoreader (not sponsored), but any aggregator should work just fine.\r\n\r\n## How do you subscribe to the dutu.dev RSS feed?\r\n\r\n 1. Go into your aggregator of choice\r\n 2. Add a feed using this link: https:\/\/dutu.dev\/feed.xml\r\n\r\nThis should be a pretty fast way of checking any new logs of mine without checking my website constantly.\r\n\r\nThanks for reading my logs\r\n\r\nI didn't stop working on games btw :)\r\n\r\n"
+        "content": "\r\n\r\n\r\n<div style=\"text-align: center;\">\r\n    <img src=\"\/images\/dutudevRSS.png\" style=\"width:100%\">\r\n<\/div>\r\n\r\n# RSS Feed\r\n\r\nI was pretty bored, so i thought of making my own rss feed. I did this because I started to use them. I think they are a pretty interesting way of centralizing a lot of websites and notifications. I use Feeder on my phone (not sponsored), but any aggregator should work just fine.\r\n\r\n## How do you subscribe to the dutu.dev RSS feed?\r\n\r\n 1. Go into your aggregator of choice\r\n 2. Add a feed using this link: https:\/\/dutu.dev\/feed.xml\r\n\r\nThis should be a pretty fast way of checking any new logs of mine without checking my website constantly.\r\n\r\nThanks for reading my logs\r\n\r\nI didn't stop working on games btw :)\r\n\r\n"
     },
     {
         "title": "Astrodeck Release",

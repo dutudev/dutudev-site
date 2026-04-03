@@ -29,4 +29,5 @@ Original Soundtrack made by [Jay](https://www.youtube.com/@annkuraa)
 
 <br><br>
 [Download From Archive](/archive/Astrodeck.zip)<br><br>
-[Download From Itch.io](https://dutudev.itch.io/astrodeck)
+[Download From Itch.io](https://dutudev.itch.io/astrodeck)<br><br>
+[Download From Google Play](https://play.google.com/store/apps/details?id=com.dutudev.astrodeck)
